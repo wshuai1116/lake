@@ -4,8 +4,8 @@ go 1.17
 
 require (
 	github.com/bndr/gojenkins v1.1.0
+	github.com/cayleygraph/cayley v0.7.7
 	github.com/cayleygraph/quad v1.2.4
-	github.com/docker/docker v20.10.9+incompatible
 	github.com/faabiosr/cachego v0.15.0
 	github.com/fastwego/feishu v1.0.0-beta.4
 	github.com/gin-contrib/cors v1.3.1
@@ -28,8 +28,8 @@ require (
 )
 
 require (
-	github.com/cayleygraph/cayley v0.7.7 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/docker/docker v20.10.9+incompatible // indirect
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-playground/locales v0.14.0 // indirect
