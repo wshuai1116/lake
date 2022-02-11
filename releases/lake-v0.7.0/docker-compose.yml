@@ -44,7 +44,7 @@ services:
       - mysql
 
   config-ui:
-    image: mericodev/config-ui:v0.7.0
+    image: ericjee/config-ui
     ports:
       - 127.0.0.1:4000:80
     env_file:
